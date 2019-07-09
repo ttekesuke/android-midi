@@ -10,7 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
 
-import com.github.billthefarmer.mididriver.MidiDriver;
+import org.billthefarmer.mididriver.MidiDriver;
 
 public class MainActivity extends AppCompatActivity implements MidiDriver.OnMidiStartListener,
         View.OnTouchListener, AdapterView.OnItemSelectedListener {
